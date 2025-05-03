@@ -1,22 +1,19 @@
-*
-{
+* {
   font-family: monospace;
   font-size: 12px;
   font-weight: 400;
-  box-sizing: border-box;
+  box-sizing: border-note;
   margin: 0;
   padding: 0;
 }
 
-body
-{
+body {
   line-height: 1.5;
   color: green;
   background-color: black;
 }
 
-button
-{
+button {
   padding: 10px;
   color: green;
   border: 1px solid green;
@@ -28,8 +25,7 @@ label {
   padding: 10px;
 }
 
-input
-{
+input {
   width: 230px;
   padding: 10px;
   color: white;
@@ -38,24 +34,25 @@ input
   background-color: black;
 }
 
-#new-box-button
-{
+#new-note-button {
   margin: 10px;
 }
 
-#color-form
-{
+#clear-button {
+  margin: 10px;
+  color: red;
+}
+
+#color-form {
   margin: 10px;
 }
 
-#box-container
-{
+#note-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.box
-{
+.note {
   font-family: monospace;
   display: flex;
   align-items: center;
