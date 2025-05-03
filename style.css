@@ -9,19 +9,19 @@
 
 body {
   line-height: 1.5;
-  color: green;
+  color: #3C3;
   background-color: black;
 }
 
 button {
   padding: 10px;
-  color: green;
-  border: 1px solid green;
+  color: #3C3;
+  border: 1px solid #3C3;
   background-color: black;
 }
 
 label {
-  border: 1px solid green;
+  border: 1px solid #3C3;
   padding: 10px;
 }
 
@@ -29,9 +29,13 @@ input {
   width: 230px;
   padding: 10px;
   color: white;
-  border: 1px solid green;
+  border: 1px solid #3C3;
   outline: none;
   background-color: black;
+}
+
+input.update {
+  width: 150px;
 }
 
 #new-note-button {
@@ -41,9 +45,14 @@ input {
 #clear-button {
   margin: 10px;
   color: red;
+  border-color: red;
 }
 
 #color-form {
+  margin: 10px;
+}
+
+#note-form {
   margin: 10px;
 }
 
@@ -53,12 +62,27 @@ input {
 }
 
 .note {
+  position: relative;
   font-family: monospace;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   margin: 10px;
-  border: 1px solid green;
+  border: 1px solid #3C3;
+}
+
+.coords {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.update-form {
+  margin: 10px;
+}
+
+.hidden-html {
+  display: none;
 }
